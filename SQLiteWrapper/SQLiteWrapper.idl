@@ -1,0 +1,9 @@
+namespace SQLiteWrapper
+{
+    [default_interface]
+    runtimeclass SQLiteWrapper : Windows.UI.Xaml.Controls.Page
+    {
+        SQLiteWrapper();
+        Int32 MyProperty;
+    }
+}
